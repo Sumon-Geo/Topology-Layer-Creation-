@@ -2,11 +2,11 @@ import arcpy
 import os
 
 # Define paths
-input_gdb = r"E:\Sheltech\1. DUL_Pac_3_Nandail\MYM_MYM_Nandail_Digi.gdb"
-output_folder = r"E:\Sheltech\1. DUL_Pac_3_Nandail"
-output_gdb_name = "Nandail_Topology.gdb"
+input_gdb = r"Input_your_gdb_file.gdb"
+output_folder = r"Replace_With_Output_folder_Location"
+output_gdb_name = "Give_a_gdb_file_name.gdb"
 output_gdb = os.path.join(output_folder, output_gdb_name)
-output_dataset = "Topology_Dataset"
+output_dataset = "Give_a_Dataset_name"
 
 # Create the output geodatabase if it doesn't exist
 if not arcpy.Exists(output_gdb):
