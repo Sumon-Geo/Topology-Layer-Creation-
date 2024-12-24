@@ -2,9 +2,9 @@ import arcpy
 import os
 
 # Define paths
-input_gdb = r"E:\Sheltech\Exercise\Chhatak_SA_46_04 Dec 2024\Distribution\Sumon_Nandile\Geodatabase.gdb"
-output_folder = r"E:\Sheltech\Exercise\Chhatak_SA_46_04 Dec 2024\Distribution\Sumon_Nandile"
-output_gdb_name = "Topology_MD_SD.gdb"
+input_gdb = r"Replace_with_Geodatabase_Path_With_File_Extension"
+output_folder = r"Replace_with_Folder_Name"
+output_gdb_name = "Give_Geodatabase_Name.gdb"
 output_gdb = os.path.join(output_folder, output_gdb_name)
 output_dataset = "Topology"
 output_polygon_dataset = "Polygon"
